@@ -1,0 +1,9 @@
+ros-rolling-robotiq-controllers (0.0.1-2noble) noble; urgency=high
+
+  * Initial ROS 2 release of robotiq_controllers
+    * This package is not supported by Robotiq but is being maintained by PickNik Robotics
+  * Contributors: Alex Moriarty, Cory Crean
+
+ -- Alex Moriarty <alex.moriarty@picknik.ai>  Mon, 17 Jul 2023 00:00:00 -0000
+
+
