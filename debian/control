@@ -1,0 +1,12 @@
+Source: ros-jazzy-robotiq-controllers
+Section: misc
+Priority: optional
+Maintainer: Alex Moriarty <alex.moriarty@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ament-cmake-copyright <!nocheck>, ament-cmake-cppcheck <!nocheck>, ament-cmake-cpplint <!nocheck>, ament-cmake-flake8 <!nocheck>, ament-cmake-lint-cmake <!nocheck>, ament-cmake-pep257 <!nocheck>, ament-cmake-uncrustify <!nocheck>, ament-cmake-xmllint <!nocheck>, ament-lint <!nocheck>, libstd-srvs-dev, python3-std-srvs, ros-jazzy-controller-interface, ros-std-srvs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-robotiq-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libstd-srvs-dev, python3-std-srvs, ros-jazzy-controller-interface, ros-std-srvs, ros-jazzy-ros-workspace
+Description: Controllers for the Robotiq gripper.
