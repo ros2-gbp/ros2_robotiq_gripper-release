@@ -1,0 +1,12 @@
+Source: ros-jazzy-robotiq-description
+Section: misc
+Priority: optional
+Maintainer: Alex Moriarty <alex.moriarty@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ament-cmake-copyright <!nocheck>, ament-cmake-cppcheck <!nocheck>, ament-cmake-cpplint <!nocheck>, ament-cmake-flake8 <!nocheck>, ament-cmake-lint-cmake <!nocheck>, ament-cmake-pep257 <!nocheck>, ament-cmake-uncrustify <!nocheck>, ament-cmake-xmllint <!nocheck>, ament-lint <!nocheck>, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-robotiq-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, joint-state-publisher-gui, librobot-state-publisher-dev, liburdf-dev, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-rviz2, ros-jazzy-xacro, ros-robot-state-publisher, ros-jazzy-ros-workspace
+Description: URDF and xacro description package for the Robotiq gripper.
