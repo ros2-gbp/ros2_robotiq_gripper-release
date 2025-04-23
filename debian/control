@@ -1,0 +1,12 @@
+Source: ros-kilted-robotiq-description
+Section: misc
+Priority: optional
+Maintainer: Alex Moriarty <alex.moriarty@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-robotiq-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-joint-state-publisher-gui, ros-kilted-launch, ros-kilted-launch-ros, ros-kilted-robot-state-publisher, ros-kilted-rviz2, ros-kilted-urdf, ros-kilted-xacro, ros-kilted-ros-workspace
+Description: URDF and xacro description package for the Robotiq gripper.
