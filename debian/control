@@ -1,0 +1,12 @@
+Source: ros-lyrical-robotiq-controllers
+Section: misc
+Priority: optional
+Maintainer: Alex Moriarty <alex.moriarty@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-controller-interface, ros-lyrical-std-srvs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/robotiq_controllers/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-robotiq-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-controller-interface, ros-lyrical-std-srvs, ros-lyrical-ros-workspace
+Description: Controllers for the Robotiq gripper.
