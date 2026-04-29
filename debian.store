@@ -1,1 +1,1 @@
-{"base": "c10d1e883a4e", "parent": "debian/rolling/robotiq_controllers", "previous": "2847b4ea9993", "trim": "", "trimbase": ""}
+{"base": "d6ef257646dc", "parent": "debian/lyrical/robotiq_controllers", "previous": "cabd07e56788", "trim": "", "trimbase": ""}
