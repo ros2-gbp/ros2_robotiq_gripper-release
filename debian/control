@@ -1,0 +1,12 @@
+Source: ros-lyrical-robotiq-description
+Section: misc
+Priority: optional
+Maintainer: Alex Moriarty <alex.moriarty@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/robotiq_description/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-robotiq-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-joint-state-publisher-gui, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-robot-state-publisher, ros-lyrical-rviz2, ros-lyrical-urdf, ros-lyrical-xacro, ros-lyrical-ros-workspace
+Description: URDF and xacro description package for the Robotiq gripper.
